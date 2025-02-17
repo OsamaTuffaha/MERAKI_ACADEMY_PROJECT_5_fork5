@@ -511,7 +511,7 @@ function Navbar() {
                       localStorage.clear();
                       nav("/login");
                 
-
+                    }
                   }}
                   sx={{
                     "&:hover": { backgroundColor: "red" },

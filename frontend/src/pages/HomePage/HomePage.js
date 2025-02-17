@@ -62,7 +62,7 @@ const MovieModal = ({ show, onHide, movie }) => {
   };
 
   return (
-o
+
     <Modal show={show} onHide={onHide} size="xl" centered>
     <Modal.Header closeButton>
       <Modal.Title
