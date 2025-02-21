@@ -13,6 +13,7 @@ import {
   removeFav,
 } from "../../service/redux/reducers/fav/favSlice";
 
+
 const MovieModal = ({ show, onHide, movie }) => {
   const dispatch = useDispatch();
   const favorites = useSelector((state) => state.fav);

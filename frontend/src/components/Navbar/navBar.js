@@ -163,7 +163,7 @@ const MovieModal = ({ show, onHide, movie }) => {
 
 const pages = ["Home", "Movies", "Series", "Genre", "Favorites","Chat"];
 
-const pages = ["Home", "Movies", "Series", "Genre", "Favorites"];
+// const pages = ["Home", "Movies", "Series", "Genre", "Favorites"];
 
 
 function Navbar() {
@@ -537,7 +537,7 @@ function Navbar() {
 
               {["Logout", "Chat", "About Us"].map((text) => (
 
-              {["Logout"].map((text) => (
+              // {["Logout"].map((text) => (
 
                 <ListItem
                   button
